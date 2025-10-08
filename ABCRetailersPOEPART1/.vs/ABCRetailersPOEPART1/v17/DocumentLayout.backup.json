@@ -1,0 +1,302 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspoepart1\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|solutionrelative:views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspoepart1\\services\\functionsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|solutionrelative:services\\functionsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspoepart1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\functions\\ordersfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspoepart1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspoepart1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspoepart1\\services\\ifunctionsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|solutionrelative:services\\ifunctionsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspoepart1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{659421EF-364D-42AF-8FA6-854C139065A2}|ABCRetailersPOEPART1.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\functions\\customersfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\functions\\productsfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\helpers\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\helpers\\httpjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\entities\\tableentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\functions\\uploadsfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\helpers\\multiparthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\functions\\queueprocessorfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48234630-C98B-47FD-BC70-63474A21CBBA}|..\\abcretailerspart2\\abcretailerspart2.csproj|c:\\users\\lab_services_student\\desktop\\cldv6212_st10440515_nothandompofu\\cldv6212_st10440515_nothandompofu\\abcretailerspart2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T11:44:35.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T11:42:12.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Helpers\\Map.cs",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Helpers\\Map.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Helpers\\Map.cs",
+              "RelativeToolTip": "..\\abcretailerspart2\\Helpers\\Map.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T11:14:27.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductsFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\ProductsFunctions.cs",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Functions\\ProductsFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\ProductsFunctions.cs",
+              "RelativeToolTip": "..\\abcretailerspart2\\Functions\\ProductsFunctions.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAA2wNgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:27:45.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UploadsFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\UploadsFunctions.cs",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Functions\\UploadsFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\UploadsFunctions.cs",
+              "RelativeToolTip": "..\\abcretailerspart2\\Functions\\UploadsFunctions.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwFwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:30:18.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TableEntities.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Entities\\TableEntities.cs",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Entities\\TableEntities.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Entities\\TableEntities.cs",
+              "RelativeToolTip": "..\\abcretailerspart2\\Entities\\TableEntities.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA4wDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:14:11.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FunctionsApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Services\\FunctionsApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\FunctionsApiClient.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Services\\FunctionsApiClient.cs",
+              "RelativeToolTip": "Services\\FunctionsApiClient.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAAAN4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:55:17.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T19:06:55.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\OrdersFunctions.cs",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Functions\\OrdersFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\OrdersFunctions.cs",
+              "RelativeToolTip": "..\\abcretailerspart2\\Functions\\OrdersFunctions.cs",
+              "ViewState": "AgIAACkBAAAAAAAAAADwvzgBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:24:02.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HttpJson.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Helpers\\HttpJson.cs",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Helpers\\HttpJson.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Helpers\\HttpJson.cs",
+              "RelativeToolTip": "..\\abcretailerspart2\\Helpers\\HttpJson.cs",
+              "ViewState": "AgIAADcAAADgMjMzMzMnwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T10:03:41.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "host.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\host.json",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\host.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\host.json",
+              "RelativeToolTip": "..\\abcretailerspart2\\host.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-08T10:32:17.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MultipartHelper.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Helpers\\MultipartHelper.cs",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Helpers\\MultipartHelper.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Helpers\\MultipartHelper.cs",
+              "RelativeToolTip": "..\\abcretailerspart2\\Helpers\\MultipartHelper.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAiwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T11:11:57.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QueueProcessorFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\QueueProcessorFunctions.cs",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Functions\\QueueProcessorFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\QueueProcessorFunctions.cs",
+              "RelativeToolTip": "..\\abcretailerspart2\\Functions\\QueueProcessorFunctions.cs",
+              "ViewState": "AgIAAAsAAAAAnJmZmZnRvzIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:29:30.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomersFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\CustomersFunctions.cs",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Functions\\CustomersFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Functions\\CustomersFunctions.cs",
+              "RelativeToolTip": "..\\abcretailerspart2\\Functions\\CustomersFunctions.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T10:14:53.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T19:19:09.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IFunctionsApi.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Services\\IFunctionsApi.cs",
+              "RelativeDocumentMoniker": "Services\\IFunctionsApi.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Services\\IFunctionsApi.cs",
+              "RelativeToolTip": "Services\\IFunctionsApi.cs",
+              "ViewState": "AgIAAAEAAACAZ2ZmZuYcwAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:34:43.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\ABCRetailersPOEPART1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:54:14.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\abcretailerspart2\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLDV6212_ST10440515_NothandoMpofu\\CLDV6212_ST10440515_NothandoMpofu\\abcretailerspart2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\abcretailerspart2\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T17:44:45.671Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
