@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ABCRetailersPOEPART1.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\abcretailerspart2\\abcretailerspart2.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

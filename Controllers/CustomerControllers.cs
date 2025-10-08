@@ -6,17 +6,16 @@ namespace ABCRetailersPOEPART1.Controllers
 {
     public class CustomerController : Controller
     {
-        private readonly IAzureStorageService _storageService;
+        private readonly IFunctionsApi _api;
 
-        public CustomerController(IAzureStorageService storageService)
-        {
-            _storageService = storageService;
-        }
+        public CustomerController(IFunctionsApi api) => _api = api;
+
         public async Task<IActionResult> Index()
         {
-            var customers = await _storageService.GetAllEntitiesAsync<Customer>();
+            var customers = await _api.GetCustomersAsync();
             return View(customers);
         }
+
         public IActionResult Create()
         {
             return View();
@@ -30,7 +29,7 @@ namespace ABCRetailersPOEPART1.Controllers
             {
                 try
                 {
-                    await _storageService.AddEntityAsync(customer);
+                    await _api.CreateCustomerAsync(customer);
                     TempData["Success"] = "Customer created successfully!";
                     return RedirectToAction(nameof(Index));
                 }
@@ -41,43 +40,28 @@ namespace ABCRetailersPOEPART1.Controllers
             }
             return View(customer);
         }
+
         public async Task<IActionResult> Edit(string id)
         {
             if (string.IsNullOrEmpty(id))
-            {
                 return NotFound();
-            }
 
-            var customer = await _storageService.GetEntityAsync<Customer>("Customer", id);
+            var customer = await _api.GetCustomerAsync(id);
             if (customer == null)
-            {
                 return NotFound();
-            }
 
             return View(customer);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Customer customer)
+        public async Task<IActionResult> Edit(string id, Customer customer)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var originalCustomer = await _storageService.GetEntityAsync<Customer>("Customer", customer.RowKey);
-                    if (originalCustomer == null) 
-                    {
-                        return NotFound();
-                    }
-                    originalCustomer.Name = customer.Name;
-                    originalCustomer.Surname = customer.Surname;
-                    originalCustomer.Email = customer.Email;
-                    originalCustomer.Username = customer.Username;
-                    originalCustomer.ShippingAddress = customer.ShippingAddress;
-
-
-                    await _storageService.UpdateEntityAsync(originalCustomer);
+                    await _api.UpdateCustomerAsync(id, customer);
                     TempData["Success"] = "Customer updated successfully!";
                     return RedirectToAction(nameof(Index));
                 }
@@ -88,12 +72,13 @@ namespace ABCRetailersPOEPART1.Controllers
             }
             return View(customer);
         }
+
         [HttpPost]
         public async Task<IActionResult> Delete(string id)
         {
             try
             {
-                await _storageService.DeleteEntityAsync<Customer>("Customer", id);
+                await _api.DeleteCustomerAsync(id);
                 TempData["Success"] = "Customer deleted successfully!";
             }
             catch (Exception ex)
@@ -104,4 +89,3 @@ namespace ABCRetailersPOEPART1.Controllers
         }
     }
 }
-

@@ -9,9 +9,17 @@ namespace ABCRetailersPOEPART1
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Add services to the container
             builder.Services.AddControllersWithViews();
-            builder.Services.AddScoped<IAzureStorageService, AzureStorageService>();
+
+            // Simple HttpClient configuration without Polly
+            builder.Services.AddHttpClient("Functions", client =>
+            {
+                var baseUrl = builder.Configuration["FunctionApi:BaseUrl"];
+                client.BaseAddress = new Uri("http://localhost:7168/api/");
+            });
+
+            builder.Services.AddScoped<IFunctionsApi, FunctionsApiClient>();
             builder.Services.AddLogging();
 
             var app = builder.Build();
@@ -20,24 +28,21 @@ namespace ABCRetailersPOEPART1
             CultureInfo.DefaultThreadCurrentCulture = culture;
             CultureInfo.DefaultThreadCurrentUICulture = culture;
 
-            // Configure the HTTP request pipeline.
+            // Configure middleware
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
-            app.UseRouting();
-
-            app.UseAuthorization();
             app.UseStaticFiles();
-            app.MapStaticAssets();
+            app.UseRouting();
+            app.UseAuthorization();
+
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
-                .WithStaticAssets();
+                pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }

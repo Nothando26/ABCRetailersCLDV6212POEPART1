@@ -8,18 +8,20 @@ namespace ABCRetailersPOEPART1.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IAzureStorageService _storageService;
+        private readonly IFunctionsApi _api;
+        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(IAzureStorageService storageService)
+        public HomeController(IFunctionsApi api, ILogger<HomeController> logger)
         {
-            _storageService = storageService;
+            _api = api;
+            _logger = logger;
         }
 
         public async Task<IActionResult> Index()
         {
-            var products = await _storageService.GetAllEntitiesAsync<Product>();
-            var customers = await _storageService.GetAllEntitiesAsync<Customer>();
-            var orders = await _storageService.GetAllEntitiesAsync<Order>();
+            var products = await _api.GetProductsAsync();
+            var customers = await _api.GetCustomersAsync();
+            var orders = await _api.GetOrdersAsync();
 
             var viewModel = new HomeViewModel
             {
@@ -31,25 +33,7 @@ namespace ABCRetailersPOEPART1.Controllers
             return View(viewModel);
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        public async Task<IActionResult> InitializeStorage()
-        {
-            try
-            {
-                await _storageService.GetAllEntitiesAsync<Customer>();
-                TempData["Success"] = "Azure Storage Initialized successfully!";
-            }
-            catch (Exception ex)
-            {
-                TempData["Error"] = $"Failed to initialize stotage: {ex.Message}";
-            }
-            return RedirectToAction(nameof(Index));
-        }
-
+        public IActionResult Privacy() => View();
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

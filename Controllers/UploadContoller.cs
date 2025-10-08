@@ -1,4 +1,5 @@
 ﻿using ABCRetailersPOEPART1.Models;
+using ABCRetailersPOEPART1.Models;
 using ABCRetailersPOEPART1.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,11 +7,11 @@ namespace ABCRetailersPOEPART1.Controllers
 {
     public class UploadController : Controller
     {
-        private readonly IAzureStorageService _storageService;
+        private readonly IFunctionsApi _api;
 
-        public UploadController(IAzureStorageService storageService)
+        public UploadController(IFunctionsApi api)
         {
-            _storageService = storageService;
+            _api = api;
         }
 
         public IActionResult Index()
@@ -28,11 +29,12 @@ namespace ABCRetailersPOEPART1.Controllers
                 {
                     if (model.ProofOfPayment != null && model.ProofOfPayment.Length > 0)
                     {
-                        // Upload to blob storage
-                        var fileName = await _storageService.UploadFileAsync(model.ProofOfPayment, "payment-proofs");
-
-                        // Also upload to file share for contracts
-                        await _storageService.UploadToFileShareAsync(model.ProofOfPayment, "contracts", "payments");
+                        // Upload the proof of payment
+                        var fileName = await _api.UploadProofOfPaymentAsync(
+                            model.ProofOfPayment,
+                            model.OrderId,
+                            model.CustomerName
+                        );
 
                         TempData["Success"] = $"File uploaded successfully! File name: {fileName}";
 
@@ -54,5 +56,3 @@ namespace ABCRetailersPOEPART1.Controllers
         }
     }
 }
-
-
