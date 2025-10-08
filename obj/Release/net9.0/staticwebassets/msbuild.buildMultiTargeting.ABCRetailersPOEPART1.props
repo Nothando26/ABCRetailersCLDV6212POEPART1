@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ABCRetailersPOEPART1.props" />
+</Project>

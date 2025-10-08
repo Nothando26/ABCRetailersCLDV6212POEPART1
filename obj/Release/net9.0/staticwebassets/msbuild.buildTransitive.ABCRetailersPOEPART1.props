@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ABCRetailersPOEPART1.props" />
+</Project>
